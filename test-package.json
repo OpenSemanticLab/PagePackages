@@ -1,0 +1,27 @@
+{
+	"publisher": "OpenSemanticLab",
+	"author": [
+		"Simon Taurus"
+	],
+	"language": "en",
+	"url": "https://github.com/RepoLab/PagePackages",
+	"licenseName": "CC BY-SA 4.0",
+	"packages": {
+		"Test Package": {
+			"globalID": "org.open-semantic-lab.demo.test-package",
+			"publisherURL": "https://open-semantic-lab.org",
+			"description": "A test package",
+			"version": "0.1",
+			"pages": [
+				{
+					"name": "PagePackageTestPage",
+					"namespace": "NS_TERM",
+					"url": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/TestPage.wikitext"
+				}
+			],
+			"requiredExtensions": [
+				"Semantic MediaWiki"
+			]
+		}
+	}
+}
