@@ -11,7 +11,7 @@
 			"globalID": "org.open-semantic-lab.demo.test-package",
 			"publisherURL": "https://open-semantic-lab.org",
 			"description": "A test package",
-			"version": "0.1",
+			"version": "0.2",
 			"pages": [
 				{
 					"name": "PagePackageTestPage",
