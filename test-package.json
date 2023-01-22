@@ -11,12 +11,18 @@
 			"globalID": "org.open-semantic-lab.demo.test-package",
 			"publisherURL": "https://open-semantic-lab.org",
 			"description": "A test package",
-			"version": "0.2",
+			"version": "0.2.1",
 			"pages": [
 				{
 					"name": "PagePackageTestPage",
 					"namespace": "NS_TERM",
 					"url": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/TestPage.wikitext"
+				},
+				{
+					"name": "PagePackageTestFile.jpg",
+					"namespace": "NS_FILE",
+					"url": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/TestFile.jpg.wikitext",
+					"fileURL": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/TestFile.jpg"
 				}
 			],
 			"requiredExtensions": [
