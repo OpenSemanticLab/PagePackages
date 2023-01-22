@@ -1,3 +1,2 @@
 https://raw.githubusercontent.com/WikiWorks/Page-Exchange-packages/master/books-smw.json
 https://raw.githubusercontent.com/WikiWorks/Page-Exchange-packages/master/books-cargo.json
-https://raw.githubusercontent.com/RepoLab/PagePackages/main/test-package.json
