@@ -23,6 +23,14 @@
 					"namespace": "NS_FILE",
 					"url": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/TestFile.jpg.wikitext",
 					"fileURL": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/TestFile.jpg"
+				},
+				{
+					"name": "PagePackageMultiSlotTestPage",
+					"namespace": "NS_TERM",
+					"url": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/MultiSlotTestPage.wikitext",
+					"slots": {
+						"jsondata" : {"url": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/MultiSlotTestPage.jsondata.json"}	
+					}
 				}
 			],
 			"requiredExtensions": [
