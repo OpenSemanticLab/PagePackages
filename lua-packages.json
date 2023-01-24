@@ -10,7 +10,7 @@
 		"Lustache": {
 			"globalID": "org.open-semantic-lab.lustache",
 			"publisherURL": "https://open-semantic-lab.org",
-			"description": "lustache - Logic-less \{\{mustache\}\} templates with Lua - based on https://github.com/Olivine-Labs/lustache",
+			"description": "lustache - Logic-less \\{\\{mustache\\}\\} templates with Lua - based on https://github.com/Olivine-Labs/lustache",
 			"version": "0.1.0",
       "baseUrl": "https://raw.githubusercontent.com/Olivine-Labs/lustache/master/src/",
 			"pages": [
