@@ -10,29 +10,29 @@
 		"Lustache": {
 			"globalID": "org.open-semantic-lab.lustache",
 			"publisherURL": "https://open-semantic-lab.org",
-			"description": "lustache - Logic-less \\{\\{mustache\\}\\} templates with Lua - based on https://github.com/Olivine-Labs/lustache",
+			"description": "lustache - Logic-less <nowiki>{{mustache}}</nowiki> templates with Lua - based on https://github.com/Olivine-Labs/lustache",
 			"version": "0.1.0",
-      "baseUrl": "https://raw.githubusercontent.com/Olivine-Labs/lustache/master/src/",
+      			"baseUrl": "https://raw.githubusercontent.com/Olivine-Labs/lustache/master/src/",
 			"pages": [
 				{
 					"name": "Lustache",
 					"namespace": "NS_MODULE",
-					"urlPath": "lustache.lua"
+					"url": "https://raw.githubusercontent.com/Olivine-Labs/lustache/master/src/lustache.lua"
 				},
-        {
+        			{
 					"name": "Lustache/Context",
 					"namespace": "NS_MODULE",
-					"urlPath": "lustache/context.lua"
+					"url": "https://raw.githubusercontent.com/Olivine-Labs/lustache/master/src/lustache/context.lua"
 				},
-        {
+        			{
 					"name": "Lustache/Renderer",
 					"namespace": "NS_MODULE",
-					"urlPath": "lustache/renderer.lua"
+					"url": "https://raw.githubusercontent.com/Olivine-Labs/lustache/master/src/lustache/renderer.lua"
 				},
-        {
+        			{
 					"name": "Lustache/Scanner",
 					"namespace": "NS_MODULE",
-					"urlPath": "lustache/scanner.lua"
+					"url": "https://raw.githubusercontent.com/Olivine-Labs/lustache/master/src/lustache/scanner.lua"
 				}
 			],
 			"requiredExtensions": [
