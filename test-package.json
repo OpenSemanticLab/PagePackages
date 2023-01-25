@@ -4,7 +4,7 @@
 		"Simon Taurus"
 	],
 	"language": "en",
-	"url": "https://github.com/RepoLab/PagePackages",
+	"url": "https://github.com/OpenSemanticLab/PagePackages",
 	"licenseName": "CC BY-SA 4.0",
 	"packages": {
 		"Test Package": {
@@ -12,12 +12,12 @@
 			"publisherURL": "https://open-semantic-lab.org",
 			"description": "A test package",
 			"version": "0.3.1",
-			"baseURL": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/",
+			"baseURL": "https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/TestPackage/",
 			"pages": [
 				{
 					"name": "PagePackageTestPage",
 					"namespace": "NS_TERM",
-					"url": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/TestPage.wikitext"
+					"url": "https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/TestPackage/TestPage.wikitext"
 				},
 				{
 					"name": "PagePackageTestPage2",
@@ -27,15 +27,15 @@
 				{
 					"name": "PagePackageTestFile.jpg",
 					"namespace": "NS_FILE",
-					"url": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/TestFile.jpg.wikitext",
-					"fileURL": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/TestFile.jpg"
+					"url": "https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/TestPackage/TestFile.jpg.wikitext",
+					"fileURL": "https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/TestPackage/TestFile.jpg"
 				},
 				{
 					"name": "PagePackageMultiSlotTestPage",
 					"namespace": "NS_TERM",
-					"url": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/MultiSlotTestPage.wikitext",
+					"url": "https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/TestPackage/MultiSlotTestPage.wikitext",
 					"slots": {
-						"jsondata" : {"url": "https://raw.githubusercontent.com/RepoLab/PagePackages/main/TestPackage/MultiSlotTestPage.jsondata.json"}	
+						"jsondata" : {"url": "https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/TestPackage/MultiSlotTestPage.jsondata.json"}	
 					}
 				}
 			],
