@@ -11,7 +11,7 @@
 			"globalID": "org.open-semantic-lab.lustache",
 			"publisherURL": "https://open-semantic-lab.org",
 			"description": "lustache - Logic-less <nowiki>{{mustache}}</nowiki> templates with Lua - based on https://github.com/Olivine-Labs/lustache",
-			"version": "0.1.0",
+			"version": "0.2.0",
       			"baseUrl": "https://raw.githubusercontent.com/OpenSemanticLab/lustache/scribunto-module-pages/src/",
 			"pages": [
 				{
