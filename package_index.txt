@@ -1,4 +1,3 @@
-https://raw.githubusercontent.com/WikiWorks/Page-Exchange-packages/master/books-smw.json
-https://raw.githubusercontent.com/WikiWorks/Page-Exchange-packages/master/books-cargo.json
 https://raw.githubusercontent.com/RepoLab/PagePackages/main/test-package.json
 https://raw.githubusercontent.com/RepoLab/PagePackages/main/lua-packages.json
+https://raw.githubusercontent.com/RepoLab/PagePackages/main/core/core-packages.json
