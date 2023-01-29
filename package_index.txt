@@ -1,3 +1,3 @@
-https://raw.githubusercontent.com/RepoLab/PagePackages/main/test-package.json
-https://raw.githubusercontent.com/RepoLab/PagePackages/main/lua-packages.json
-https://raw.githubusercontent.com/RepoLab/PagePackages/main/core/core-packages.json
+https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/test-package.json
+https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/lua-packages.json
+https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/core/core_packages.json
