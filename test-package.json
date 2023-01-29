@@ -26,7 +26,7 @@
 				},
 				{
 					"name": "PagePackageTestPage3",
-					"namespace": "7000",
+					"namespace": 7000,
 					"urlPath": "TestPage3.wikitext"
 				},
 				{
