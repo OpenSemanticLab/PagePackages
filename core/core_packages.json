@@ -10,7 +10,7 @@
         "core": {
             "globalID": "org.open-semantic-lab.core",
             "description": "Provides core functionalities of OpenSemanticLab",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "baseURL": "https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/core/",
             "pages": [
                 {

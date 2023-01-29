@@ -253,6 +253,7 @@ function p.processJsondata(args)
 	local display_label = p.defaultArgPath(jsondata, {p.keys.name}, "")
 	if (display_label == "") then display_label = p.defaultArgPath(jsondata, {p.keys.label, 1, p.keys.text}, "") end
 	
+	local jsonld = p.copy(jsondata)
 	local json_data_store = p.copy(jsondata)
 	local json_data_render = p.copy(jsondata)
 	json_res_store = p.expandEmbeddedTemplates({jsonschema=jsonschema, jsondata=json_data_store, mode='store'})
@@ -263,6 +264,8 @@ function p.processJsondata(args)
 	local smw_res = nil
 	if (mode == p.mode.header) then
 		smw_res = p.getSemanticProperties({jsonschema=jsonschema, jsondata=json_res_store.res, store=false, debug=debug})
+		jsonld["@context"] = smw_res.context
+		wikitext = wikitext .. "<div class='jsonld-header' style='display:none' data-jsonld='" .. mw.text.jsonEncode( jsonld ) .. "'></div>"
 	end
 	
 	local json_res = p.expandEmbeddedTemplates({jsonschema=jsonschema, jsondata=json_data_render, mode='render'})
@@ -309,7 +312,6 @@ function p.processJsondata(args)
 		end
 		--wikitext = mw.dumpObject(smw_res.properties) .. wikitext
 	end
-	
 	
 	if (debug) then mw.logObject(res) end
 	return {wikitext=wikitext, debug_msg=msg}
@@ -579,7 +581,7 @@ function p.getSemanticProperties(args)
 		if (not store_res and store_res.error ~= nil) then error = error .. store_res.error end
 	end
 	if (debug) then mw.logObject(error) end
-	return {properties=properties, definitions=property_data, id=subobjectId, error=error}
+	return {properties=properties, definitions=property_data, id=subobjectId, context=context, error=error}
 end
 
 -- build a semantic query based on provided properties and their schema definition
