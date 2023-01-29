@@ -25,6 +25,11 @@
 					"urlPath": "TestPage2.wikitext"
 				},
 				{
+					"name": "PagePackageTestPage3",
+					"namespace": "7000",
+					"urlPath": "TestPage3.wikitext"
+				},
+				{
 					"name": "PagePackageTestFile.jpg",
 					"namespace": "NS_FILE",
 					"url": "https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/TestPackage/TestFile.jpg.wikitext",
