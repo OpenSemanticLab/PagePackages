@@ -265,6 +265,12 @@ function p.processJsondata(args)
 	if (mode == p.mode.header) then
 		smw_res = p.getSemanticProperties({jsonschema=jsonschema, jsondata=json_res_store.res, store=false, debug=debug})
 		jsonld["@context"] = smw_res.context
+		for k, v in pairs(jsonld) do
+			if (type(v) == "string") then
+				local vpart = p.splitString(v, ':')
+				if (vpart[1] == "File") then jsonld[k] = mw.getCurrentFrame():callParserFunction( 'filepath', { vpart[2] } ) end --google does not follow redirects via "File":"wiki:Special:Redirect/file/"
+			end
+		end
 		wikitext = wikitext .. "<div class='jsonld-header' style='display:none' data-jsonld='" .. mw.text.jsonEncode( jsonld ) .. "'></div>"
 	end
 	
