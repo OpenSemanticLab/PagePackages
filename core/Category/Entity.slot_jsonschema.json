@@ -5,6 +5,12 @@
         "wiki": "https://wiki-dev.open-semantic-lab.org/id/",
         "Property": {
             "@id": "wiki:Property-3A",
+            "@type": "@id",
+            "@prefix": true
+        },
+        "File": {
+            "@id": "https://wiki-dev.open-semantic-lab.org/wiki/Special:Redirect/file/",
+            "@type": "@id",
             "@prefix": true
         },
         "Category": {
@@ -14,7 +20,6 @@
         "category": {
             "@id": "@type"
         },
-        "name": "schema:name",
         "name*": "Property:HasName",
         "label": "skos:prefLabel",
         "label*": "Property:HasLabel",
@@ -26,7 +31,8 @@
         },
         "query_label": "Property:HasLabel",
         "description_": "Property:HasDecription",
-        "image": "Property:HasImage",
+        "image": "schema:image",
+        "image*": "Property:HasImage",
         "short_name": "Property:HasShortName"
     },
     "title": "Entity",

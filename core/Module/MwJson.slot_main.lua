@@ -13,6 +13,7 @@ p.keys = { --jsonschema / json-ld keys
 	allOf='allOf',
 	label='label',
 	name='name',
+	description='description',
 	text='text',
 	debug='_debug'
 } 
@@ -265,6 +266,8 @@ function p.processJsondata(args)
 	if (mode == p.mode.header) then
 		smw_res = p.getSemanticProperties({jsonschema=jsonschema, jsondata=json_res_store.res, store=false, debug=debug})
 		jsonld["@context"] = smw_res.context
+		jsonld['schema:name'] = p.defaultArgPath(jsonld, {p.keys.label, 1, p.keys.text}, jsonld['name']) --google does not support @value and @lang
+		jsonld['schema:description'] = p.defaultArgPath(jsonld, {p.keys.description, 1, p.keys.text}, nil)
 		for k, v in pairs(jsonld) do
 			if (type(v) == "string") then
 				local vpart = p.splitString(v, ':')
