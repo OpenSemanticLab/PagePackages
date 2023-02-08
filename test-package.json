@@ -31,7 +31,7 @@
 				},
 				{
 					"name": "PagePackageTestPage4",
-					"namespace": "Item",
+					"namespace": "NS_ITEM",
 					"urlPath": "TestPage4.wikitext"
 				},
 				{
