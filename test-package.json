@@ -16,12 +16,12 @@
 			"pages": [
 				{
 					"name": "PagePackageTestPage",
-					"namespace": "NS_TERM",
+					"namespace": 7310,
 					"url": "https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/TestPackage/TestPage.wikitext"
 				},
 				{
 					"name": "PagePackageTestPage2",
-					"namespace": "NS_TERM",
+					"namespace": 7310,
 					"urlPath": "TestPage2.wikitext"
 				},
 				{
@@ -42,7 +42,7 @@
 				},
 				{
 					"name": "PagePackageMultiSlotTestPage",
-					"namespace": "NS_TERM",
+					"namespace": 7310,
 					"url": "https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/TestPackage/MultiSlotTestPage.wikitext",
 					"slots": {
 						"jsondata" : {"url": "https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/TestPackage/MultiSlotTestPage.jsondata.json"}	
