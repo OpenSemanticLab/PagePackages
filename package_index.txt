@@ -1,5 +1,5 @@
 https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/test-package.json
 https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/lua-packages.json
-https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/core/core_packages.json
+https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.core/main/packages.json
 https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.base/main/packages.json
 https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.demo/main/packages.json
