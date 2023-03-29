@@ -2,3 +2,4 @@ https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.
 https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.base/main/packages.json
 https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.demo/main/packages.json
 https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.lab.virtual/main/packages.json
+https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.lab/main/packages.json
