@@ -11,7 +11,7 @@
 			"globalID": "org.open-semantic-lab.demo.test-package",
 			"publisherURL": "https://open-semantic-lab.org",
 			"description": "A test package",
-			"version": "0.3.3",
+			"version": "0.4.0",
 			"baseURL": "https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/TestPackage/",
 			"pages": [
 				{
@@ -47,6 +47,11 @@
 					"slots": {
 						"jsondata" : {"url": "https://raw.githubusercontent.com/OpenSemanticLab/PagePackages/main/TestPackage/MultiSlotTestPage.jsondata.json"}	
 					}
+				},
+				{
+					"name": "PropertyPagePackageTestProperty",
+					"namespace": "NS_PROPERTY",
+					"urlPath": "PropertyPagePackageTestProperty.wikitext"
 				}
 			],
 			"requiredExtensions": [
