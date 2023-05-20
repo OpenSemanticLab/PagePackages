@@ -50,7 +50,7 @@
 				},
 				{
 					"name": "PropertyPagePackageTestProperty",
-					"namespace": "NS_PROPERTY",
+					"namespace": "SMW_NS_PROPERTY",
 					"urlPath": "PropertyPagePackageTestProperty.wikitext"
 				}
 			],
